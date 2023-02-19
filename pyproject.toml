@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "whms-discord-bot"
+version = "0.1.0"
+description = ""
+authors = ["AbeetoChan <abinavkumar347@gmail.com>"]
+readme = "README.md"
+packages = [{include = "whms_discord_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+py-cord = "^2.4.0"
+pymongo = "^4.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
